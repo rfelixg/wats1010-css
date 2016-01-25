@@ -1,6 +1,105 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+aside.more-info img {
+  width: 470px;
+  height: auto;
+  position: static;
+  float: right;
+  padding-top: -1em;
+  margin-top: -1em;
+/*   margin-left: 50em; */
+} 
+
+header {
+/*   margin-left: 25rem; */
+/*   margin-right: 25rem; */
+}
+
+header.page-header {
+/*   background: lightgray; */
+/*   margin-left: 15em; */
+  text-align: center;
+}
+
+aside {
+  text-align: left;
+/*   margin-left: 25rem; */
+/*   margin-right: 25rem; */
+}
+
+aside.more-info {
+/* line-height: 1; */
+  /*   background: lightblue; */
+}
+
+section#content {
+/*   background: lightgreen; */
+}
+
+footer.page-footer {
+/*   background: lightsalmon; */
+}
+
+body {
+  background-color: #FFFFFF;
+  /* For WebKit (Safari, Chrome, etc) */
+  background: #FFFFFF -webkit-gradient(linear, left top, left bottom, from(#C79775), to(#FFFFFF)) no-repeat;
+  /* Mozilla,Firefox/Gecko */
+  background: #FFFFFF -moz-linear-gradient(top, #C79775, #FFFFFF) no-repeat;
+  /* IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#C79775, endColorstr=#FFFFFF) no-repeat;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#C79775, endColorstr=#C79775)" no-repeat;
+/*   background-color: #D2B48C; */
+/*   background-color: #EDC9AF; */
+/*   background-color: #F5DEB3; */
+/*   background-image: url('images/hard-paper-texture.jpg'); */
+/*   background-position: 30% 20%;  */
+  background-size: contain;
+/*   background-repeat: repeat-x; */
+  font-family: Cambria;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  padding: 1rem;
+/*   border: 10rem; */
+/*   margin-top: 2rem; */
+/*   margin-bottom: 2rem; */
+/*   width: 50rem; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman"; 
+}
+
+section#content {
+/*   background-image: url('images/Xanadu_on_Map_of_Asia.JPG'); */
+  background-image: url('images/hiking-the-sand-dunes.jpg');
+  background-size: cover;
+}
+
+ul.poem {
+  list-style-type: none;
+  color: black;
+  margin-left: 5em;
+  padding-top: 3em;
+/*   margin-bottom: 5em; */
+  padidng: 10em;
+}
+
+.poem li {
+  font-size: large;
+  line-height: 1.8;
+  font-weight: bold; 
+/*   margin-left: 25rem;
+  margin-right: 25rem;
+   */
+}
+
+p.citation {
+  font-weight: bold;
+}
+
+aside p {
+  line-height: .3;
 }
